@@ -1,7 +1,7 @@
 // Comentários utilizam //
 /* ou entre /* */ 
 
-//Assim como no Java utiliza-se ; ao executar uma sentença do código.
+//Assim como no Java utiliza-se ; ao executar uma sentença do código, entretanto o js complila mesmo sem os ;
 
 console.log("Isso é como o print do python");
 

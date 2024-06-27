@@ -1,6 +1,5 @@
 var a = 3 
-/* tem escopo em toda a função onde foi declarada
-* Se declarada fora de uma função tem escopo global
+/* tem tem escopo global, não fica guardado dentro de um bloco.
 * (uma var consegue ser redeclarada, isso acontece só no JS)
 */
 
@@ -9,6 +8,8 @@ let b = 34
  apenas no bloco onde ela foi declarada
  uma tentativa de acesso a uma variável antes de sua declaração resultará em um erro de referência.
  Você não pode redeclarar uma variável usando let no mesmo escopo; isso gerará um erro.
+
+  Ao usar o let ele tem escopo de bloco e caso ao usar a variável ele pode procurar a variável de fora do escopo.
 */
 
 const c = 353
